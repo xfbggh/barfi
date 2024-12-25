@@ -1,0 +1,65 @@
+{
+    "command": "execute",
+    "editor_state": {
+        "nodes": [
+            {
+                "type": "Feed",
+                "id": "node_17351447891140",
+                "name": "Feed-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Output 1",
+                        {
+                            "id": "ni_17351447891151",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 83,
+                    "y": 162
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            },
+            {
+                "type": "Result",
+                "id": "node_17351447931292",
+                "name": "Result-1",
+                "options": [],
+                "state": {},
+                "interfaces": [
+                    [
+                        "Input 1",
+                        {
+                            "id": "ni_17351447931303",
+                            "value": null
+                        }
+                    ]
+                ],
+                "position": {
+                    "x": 368,
+                    "y": 206
+                },
+                "width": 200,
+                "twoColumn": false,
+                "customClasses": ""
+            }
+        ],
+        "connections": [
+            {
+                "id": "17351448027787",
+                "from": "ni_17351447891151",
+                "to": "ni_17351447931303"
+            }
+        ],
+        "panning": {
+            "x": 0,
+            "y": 0
+        },
+        "scaling": 1
+    }
+}
